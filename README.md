@@ -14,7 +14,7 @@ Prosjektet er laget som en del av et skoleprosjekt for å vise forståelse av **
 
 Prosjektet bruker følgende teknologier:
 
-### Frotend:
+### Frontend:
 
 * Alt dynamisk som en nettside trenger og alt en bruker ser blir bygget opp i `React`
 
