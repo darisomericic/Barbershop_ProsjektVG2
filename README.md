@@ -1,4 +1,4 @@
-# Torshov Perfect Cut – Booking Nettside
+# 💈Torshov Perfect Cut – Booking Nettside 💈
 
 ## 📌 Om prosjektet
 
