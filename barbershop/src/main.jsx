@@ -1,10 +1,10 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import './index.css'
-import App from './App.jsx'
+import style from './style/barber.module.css'
+import Barber from './pages/barber'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <App />
+    <Barber />
   </StrictMode>,
 )

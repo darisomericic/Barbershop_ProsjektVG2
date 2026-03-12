@@ -14,7 +14,7 @@ Prosjektet er laget som en del av et skoleprosjekt for å vise forståelse av **
 
 Prosjektet bruker følgende teknologier:
 
-### Frotend:
+### Frontend:
 
 * Alt dynamisk som en nettside trenger og alt en bruker ser blir bygget opp i `React`
 
@@ -73,7 +73,7 @@ Eksempel på hvordan database-tabellen skal se ut:
 
 ### Bestillte timer 
 
-| id | name | phone | service_id | date | time |
+| id | name | telefonnummer | service_id | dato | time |
 | -- | ---- | ----- | ---------- | ---- | ---- |
 
 ---
@@ -84,6 +84,13 @@ Eksempel på hvordan database-tabellen skal se ut:
 
 
 PROSJEKT_2_VG2/
+|── .venv/
+|   ├── Include/
+|   ├── Lib/
+|   ├── Scripts/
+|   ├── .gitignore
+|   └── pyvenv.cfg
+|
 ├── barbershop/             # Frontend
 │   ├── src/                # Kildekode 
 │   │   ├── assets/
@@ -113,19 +120,46 @@ git clone <repo-url>
 ### 2. Start backend
 
 ```
-cd backend
 python app.py
 ```
 
 ### 3. Start frontend
 
 ```
-cd frontend
+cd barbershop
 npm install
 npm start
 ```
 
 ---
+
+## Tilgjengelige Skript
+### I denne mappen kan du kjøre følgende:
+
+### `npm run dev`
+Kjører appen i development modus.
+Åpne http://localhost:3000 for å vise nettsiden i nettleseren.
+
+Nettsiden laster opp på nytt når man redigeren siden.
+Du vil også se noen lite error linjer i nettsiden.
+
+----
+### `npm start -- --host X.X.X.X`
+Denne kommandoen starter React-utviklingsserveren og gjør appen tilgjengelig på ditt lokale nettverk. Ved å erstatte X.X.X.X med datamaskinens lokale IP-adresse, kan andre enheter på det samme Wi-Fi-nettverket (som telefoner, nettbrett eller andre PC-er) åpne appen i nettleseren sin.
+
+----
+### `npm test`
+Starter testrunneren i interaktiv overvåkingsmodus.
+
+----
+### `npm run build`
+Bygger appen for produksjon til build-mappen. Den pakker korrekt inn React i produksjonsmodus og optimaliserer byggeprosessen for best mulig ytelse.
+
+Bygget er minifisert, og filnavnene inkluderer hashene. 
+Appen din er klar til å distribueres!
+
+----
+
 
 ## 🎯 Mål med prosjektet
 
